@@ -1,0 +1,36 @@
+all class + pca + 取前兩維visualize => 效果不佳
+all class + lda + 取前兩維visualize => 效果不佳
+
+logistic + (lon, lat) => 0.175
+logistic + (lon, lat) + normalize => 0.175
+
+(very rare + EU) + RF local model => 60%  GOOD!
+(very rare + AM) + RF local model => 35%
+(very rare) + RF local model => 50%
+
+(rare) + RF local model => 19%
+(rare + EU) + RF local model => 19%
+(rare + AM) + RF local model => 19%
+
+
+Q:
+common, rare, very rare數量
+r, vr各大陸各城市數量分布
+
+common, rare, very rare24小時間分布
+r, vr個大陸各城市24小時間分布
+
+r, vr在星期幾抓到的機率
+r, vr在不同地形抓到的機率
+r, vr在不同氣候抓到的機率
+
+c離gym平均距離 & r, vr離gym平均距離
+
+
+
+r, vr平均多久出現?
+
+
+
+
+
